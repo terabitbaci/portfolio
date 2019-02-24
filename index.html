@@ -3,19 +3,206 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
+    <title>Teresa Bacigalupi - Fullstack Developer</title>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <!--    add about me content  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+    <!--    favicon-->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="128x128" href="icon.png">
+    <link rel="icon" sizes="192x192" href="icon-hires.png">
+    <!--
+ <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="128x128" href="icon.png">
+    <link rel="icon" sizes="192x192" href="icon-hires.png">
+-->
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <header>
+        <h1>Teresa Bacigalupi</h1>
+        <nav role="navigation">
+            <ul>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#projects"><i class="fas fa-book"></i> Projects</a></li>
+                <li><a href="#tech"><i class="fas fa-wrench"></i> Skills</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero-container">
+        <div class="slogan">Creativity, Collaboration, Purpose</div>
+    </section>
+    <section class="about-container">
+        <h3 class="about-title">
+            About Me
+            <img src="/images/teresa-web-developer.jpg" class="photo" alt="this is Teresa - your next web developer">
+        </h3>
+        <p>
+            Hello friend. I am a full stack web developer who is passionate about working in concert with others toward a lofty goal. Discovery, innovation, and problem solving are fun! Let's get in touch and talk about creating wonderful things together, or beekeeping, or my stand-up comedy.
+        </p>
+    </section>
+    <section class="skills-container">
+        <h3 class="skills-title">
+            Skills
+        </h3>
+        <!--HTML5, CSS3, JavaScript ES5/ES6, jQuery, Ajax, NodeJS, Express, APIs, Robo 3T (mLab), Mocha, Chai, Git, GitHub-->
+        <div class="skills-container-images">
+            <figure class="skill-name">
+                <img src="images/skills/html5.png" alt="HTML 5">
+                <figcaption>
+                    HTML 5
+                </figcaption>
+            </figure>
 
-    <head>
-        <nav></nav>
-    </head>
-    <section class="hero-container"></section>
-    <section class="about-container"></section>
-    <section class="skills-container"></section>
-    <section class="projects-container"></section>
+            <figure class="skill-name">
+                <img src="images/skills/css3.png" alt="CSS 3">
+                <figcaption>
+                    CSS
+                </figcaption>
+            </figure>
+
+            <figure class="skill-name">
+                <img src="images/skills/javascript.png" alt="JavaScript">
+                <figcaption>
+                    JavaScript
+                </figcaption>
+            </figure>
+
+
+            <figure class="skill-name">
+                <img src="images/skills/jquery.png" alt="JQuery">
+                <figcaption>
+                    JQuery
+                </figcaption>
+            </figure>
+
+            <figure class="skill-name">
+                <img src="images/skills/nodejs.png" alt="Node.js">
+                <figcaption>
+                    Node.js
+                </figcaption>
+            </figure>
+
+            <figure class="skill-name">
+                <img src="images/skills/express.png" alt="ExpressJS">
+                <figcaption>
+                    Express
+                </figcaption>
+            </figure>
+
+            <figure class="skill-name">
+                <img src="images/skills/mongodb.png" alt="Mongo DB">
+                <figcaption>
+                    MongoDB
+                </figcaption>
+            </figure>
+
+            <figure class="skill-name">
+                <img src="images/skills/mocha.png" alt="Mocha">
+                <figcaption>
+                    Mocha
+                </figcaption>
+            </figure>
+
+            <figure class="skill-name">
+                <img src="images/skills/chai.png" alt="Chai">
+                <figcaption>
+                    Chai
+                </figcaption>
+            </figure>
+
+            <figure class="skill-name">
+                <img src="images/skills/mlab.png" alt="mLab">
+                <figcaption>
+                    mLab
+                </figcaption>
+            </figure>
+
+            <figure class="skill-name">
+                <img src="images/skills/github.png" alt="Github">
+                <figcaption>
+                    GitHub
+                </figcaption>
+            </figure>
+        </div>
+    </section>
+    <section class="projects-container">
+
+        <h3 class="projects-title">
+            Projects
+        </h3>
+        <div class="projects-container-wrapper">
+            <div class="projects-item">
+                <div class="projects-column">
+                    <a href="https://terabitbaci.github.io/lego-inventory/" target="_blank"><img src="images/bee-quiz.png" alt="Test Your Bee Knowledge"></a>
+                </div>
+                <div class="projects-column projects-description">
+                    <a href="https://terabitbaci.github.io/jQ-challenge-buildYourQuizApp/" target="_blank">
+                        <h4>Bee Quiz</h4>
+                    </a>
+                    <p>Evaluate your bee savy by taking this quiz.
+                    </p>
+                    <p>A third of all fruits and vegetables are pollinated by bees. How much do you know about these fascinating, hard-working insects?</p>
+                    <p class="demo-link"><a href="https://legoinventory.herokuapp.com/" target="_blank">Live Demo</a></p>
+                    <!-- tools -->
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="projects-item">
+                <div class="projects-column">
+                    <a href="https://terabitbaci.github.io/capstone-census-api/" target="_blank"><img src="images/migration-app.png" alt="Migration App: Where do our new neighbors come from?"></a>
+                </div>
+                <div class="projects-column projects-description">
+                    <a href="https://terabitbaci.github.io/capstone-census-api/" target="_blank">
+                        <h4>Migration App</h4>
+                    </a>
+                    <p>Enter your state and county and see where your new neighbors come from.
+                    </p>
+                    <p>People began migrating out of Africa and across our planet over 100,000 years ago. Migrations across what is now the United States have taken place over the past 600 generations, and has been intensely studied by archaeologists and anthropologists. Now, thanks to the U.S. Census Bureau, current migration information is being collected in the American Community Survey, and made available to you.</p>
+                    <!--                    <p class="demo-link"><a href="https://weekly-words.herokuapp.com/" target="_blank">Live Demo</a></p>-->
+                    <!-- tools -->
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="projects-item">
+                <div class="projects-column">
+                    <a href="https://terabitbaci.github.io/jQ-challenge-buildYourQuizApp/" target="_blank"><img src="images/bee-quiz.png" alt="Test Your Bee Knowledge"></a>
+                </div>
+                <div class="projects-column projects-description">
+                    <a href="https://terabitbaci.github.io/jQ-challenge-buildYourQuizApp/" target="_blank">
+                        <h4>Bee Quiz</h4>
+                    </a>
+                    <p>Evaluate your bee savy by taking this quiz.
+                    </p>
+                    <p>A third of all fruits and vegetables are pollinated by bees. How much do you know about these fascinating, hard-working insects?</p>
+                    <!--                    <p class="demo-link"><a href="https://weekly-words.herokuapp.com/" target="_blank">Live Demo</a></p>-->
+                    <!-- tools -->
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </section>
     <footer>
         <ul>
             <li>linkedin</li>
