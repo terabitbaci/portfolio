@@ -75,8 +75,9 @@ header h1 {
     width: auto;
     font-family: fantasy;
     color: blue;
-    font-size: 2.3rem;
+    font-size: 2rem;
     vertical-align: middle;
+    padding-top: 0.5rem;
 }
 
 header nav {
@@ -89,11 +90,12 @@ header nav {
 header nav ul {
     display: block;
     width: auto;
+    margin-top: 2rem;
 }
 
 header nav ul li {
     display: inline-block;
-    padding: 1rem;
+    padding: 0.5rem;
     width: auto;
 }
 
@@ -120,9 +122,10 @@ Content styles (Main Module)
     /*
     margin-left: auto;
     margin-right: auto;
-*/
+    */
     width: 100%;
-    height: 600px;
+    height: 800px;
+    max-width: 1600px;
 }
 
 .hero-container .slogan {
@@ -172,7 +175,7 @@ Content styles (Main Module)
 
 .projects-container .projects-item {
     padding-bottom: 0.5rem;
-    padding-top: 0.5rem;
+    padding-top: 1.5rem;
     border-bottom: 1px solid #eee;
 }
 
@@ -233,7 +236,7 @@ footer h4 {
     /*
     text-shadow: #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px;
     -webkit-font-smoothing: antialiased;
-*/
+    */
 }
 
 footer ul li {
@@ -244,15 +247,6 @@ footer ul li {
 
 footer li a {
     color: blue;
-    /*
-    text-shadow: #000 0px 0px 1px,
-    #000 0px 0px 1px,
-    #000 0px 0px 1px,
-    #000 0px 0px 1px,
-    #000 0px 0px 1px,
-    #000 0px 0px 1px;
-    -webkit-font-smoothing: antialiased;
-*/
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -261,3 +255,137 @@ footer li a {
 /* -------------------------------------
 Responsive styles
 */
+
+
+/*large laptop*/
+
+@media only screen and (max-width: 1600px) {
+    body {
+        /*        color: pink;*/
+    }
+    .hero-container {
+        height: 600px;
+    }
+    .hero-container .slogan {
+        margin-top: 5%;
+        font-size: 25px;
+    }
+}
+
+
+/*ipad lanscape / small laptop*/
+
+@media only screen and (max-width: 1024px) {
+    body {
+        /*        color: blue;*/
+    }
+    .hero-container {
+        height: 400px;
+    }
+    .hero-container .slogan {
+        margin-top: 5%;
+        font-size: 25px;
+    }
+}
+
+
+/*ipad potrait*/
+
+@media only screen and (max-width: 768px) {
+    body {
+        /*        color: red;*/
+    }
+    body {
+        font-size: 12px;
+    }
+    .hero-container {
+        height: 250px;
+    }
+    .hero-container .slogan {
+        margin-top: 5%;
+        font-size: 20px;
+    }
+    header,
+    section,
+    footer {
+        width: 95%;
+    }
+    header {
+        text-align: center;
+    }
+    header h1 {
+        padding-top: 2rem;
+        font-size: 1.5rem;
+        display: block;
+    }
+    header nav {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0;
+        width: 100%;
+        float: none;
+    }
+    h3 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 15px;
+    }
+    .about-container p {
+        font-size: 15px;
+    }
+    .skills-container .skills-container-images figure {
+        width: 25%;
+    }
+    .projects-container .projects-column {
+        display: block;
+        width: 100%;
+    }
+    footer i {
+        font-size: 2.5rem;
+    }
+}
+
+
+/*iPhone landscape*/
+
+@media only screen and (max-width: 480px) {
+    body {
+        /*        color: green;*/
+    }
+    h3,
+    h4 {
+        text-align: center;
+    }
+    .hero-container {
+        height: 180px;
+    }
+    .projects-container .projects-description ul {
+        text-align: center;
+    }
+    .hero-container .slogan {
+        margin-top: 5%;
+        font-size: 15px;
+    }
+    .about-container .photo {
+        width: 45%;
+        margin-left: auto;
+        float: none;
+        display: block;
+        margin-bottom: 1rem;
+        margin-right: auto;
+    }
+    .skills-container .skills-container-images figure {
+        width: 48%;
+    }
+}
+
+
+/*iPhone portrait*/
+
+@media only screen and (max-width: 320px) {
+    body {
+        /*        color: purple;*/
+    }
+}
