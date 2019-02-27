@@ -80,6 +80,10 @@ header h1 {
     padding-top: 0.5rem;
 }
 
+header h1 a {
+    color: blue;
+}
+
 header nav {
     display: inline-block;
     float: right;
