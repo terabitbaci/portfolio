@@ -13,7 +13,6 @@
         gtag('js', new Date());
 
         gtag('config', 'UA-135749408-1');
-
     </script>
 
     <!-- Begin Inspectlet Asynchronous Code -->
@@ -34,7 +33,6 @@
             };
             setTimeout(ldinsp, 0);
         })();
-
     </script>
     <!-- End Inspectlet Asynchronous Code -->
     <meta charset="UTF-8">
@@ -57,7 +55,8 @@
 
     <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
+    <link href="style.css" rel="stylesheet">
+    <link href="print.css" rel="stylesheet" media="print">
 </head>
 
 <body>
@@ -65,25 +64,110 @@
         <h1><a href="/">Teresa Bacigalupi</a></h1>
         <nav role="navigation">
             <ul>
-                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
-                <li><a href="#skills"><i class="fas fa-wrench"></i> Skills</a></li>
-                <li><a href="#projects"><i class="fas fa-book"></i> Projects</a></li>
-                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                <li class="show-web-only"><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li class="show-web-only"><a href="#skills"><i class="fas fa-wrench"></i> Skills</a></li>
+                <li class="show-web-only"><a href="#projects"><i class="fas fa-book"></i> Projects</a></li>
+                <li class="show-web-only"><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                <li class="show-print-only">
+                    <a href="mailto:teresabacigalupi@gmail.com?Subject=Your Portfolio">
+                        <i class="fas fa-envelope"></i> TeresaBacigalupi@gmail.com
+                    </a>
+                </li>
+                <li class="show-print-only">
+                    <a href="https://github.com/terabitbaci">
+                        <i class="fab fa-github"></i> GitHub.com/TerabitBaci
+                    </a>
+                </li>
+                <li class="show-print-only">
+                    <a href="https://www.linkedin.com/in/teresabacigalupi/">
+                        <i class="fab fa-linkedin"></i> LinkedIn.com/in/TeresaBacigalupi
+                    </a>
+                </li>
             </ul>
         </nav>
     </header>
-    <section class="hero-container">
+
+    <section class="hero-container show-web-only">
         <div class="slogan">Collaboration <br />Creativity <br />Purpose <br /></div>
     </section>
     <a name="about"></a>
     <section class="about-container clearfix">
         <h3 class="about-title">
-            <img src="./images/teresa-web-developer.jpg" class="photo" alt="this is Teresa - your next web developer"> About Me
+            <img src="./images/teresa-web-developer.jpg" class="photo" alt="meet Teresa - your next web developer"> About Me
         </h3>
         <p>
-            Hello friend. I am a full stack web developer who is passionate about working in concert with others toward a lofty goal. Discovery, innovation, and problem solving are fun! Let's get in touch and talk about creating wonderful things together, or about beekeeping...or Legos.
+            Hello friend. I am a full stack web developer who is passionate about working in concert with others toward a lofty goal.
+        </p>
+        <p>
+            Discovery, innovation, and problem solving are fun!
+        </p>
+        <p>
+            Let's get in touch and talk about creating wonderful things together, or about beekeeping...or Legos.
         </p>
     </section>
+
+    <a name="education"></a>
+    <section class="education-container clearfix show-print-only">
+        <h3 class="education-title">
+            Education
+        </h3>
+        <p>
+            Thinkful—full stack program
+        </p>
+        <p>
+            Industry best practices and practical software development standards, with a focus on creating and deploying mobile-first applications by collaborating several hours every week with a senior web developer
+        </p>
+        <p>
+            California Polytechnic State University, San Luis Obispo
+        </p>
+        <p>
+            B.S. Engineering Technology
+        </p>
+    </section>
+
+
+    <a name="experience"></a>
+    <section class="experience-container clearfix show-print-only">
+        <h3 class="experience-title">
+            Experience
+        </h3>
+        <h5 class="experience-subtitle">
+            Width
+        </h5>
+        <p>
+            technical writer, quality improvement specialist, safety engineer, founder (nonprofit)
+        </p>
+
+        <h5 class="experience-subtitle">
+            Breadth
+        </h5>
+        <p>
+            medical device technology, telecommunications, motor controls, manufacturing, quality standards
+        </p>
+
+        <h5 class="experience-subtitle">
+            Depth
+        </h5>
+        <p>
+            collaborated with engineers in documentation development, and verified continuity of interrelated documents at all specificity levels across multiple departments
+        </p>
+        <p>
+            created flow charts and diagrams to document processes
+        </p>
+        <p>
+            designed and wrote installation guides, and supervised a contract artist for illustrations
+        </p>
+        <p>
+            edited and wrote sections for technical publication style guides
+        </p>
+        <p>
+            wrote content for nonprofit corporate website
+        </p>
+        <p>
+            designed a program and recruited instructors to teach coping skills to women in prison
+        </p>
+    </section>
+
     <a name="skills"></a>
     <section class="skills-container clearfix">
         <h3 class="skills-title">
@@ -245,10 +329,16 @@
         </div>
 
     </section>
+
+
+
+
+
+
     <a name="contact"></a>
     <footer>
 
-        <ul>
+        <ul class="show-web-only">
             <li>
                 <a href="mailto:teresabacigalupi@gmail.com?Subject=Your Portfolio" target="_blank">
                     <i class="fas fa-envelope"></i>
@@ -265,7 +355,7 @@
                 </a>
             </li>
         </ul>
-        <h4>&#160; 2019 Teresa Bacigalupi</h4>
+        <h4>&copy; 2019 Teresa Bacigalupi</h4>
     </footer>
     <!--    <script src="script.js"></script>-->
 </body>
