@@ -39,10 +39,9 @@ footer {
 
 .about-container,
 .skills-container,
-.projects-container,
 .education-container,
 .experience-container,
-footer {
+.projects-container footer {
     margin-top: 3rem;
     clear: both;
 }
