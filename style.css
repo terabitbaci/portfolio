@@ -48,7 +48,7 @@ footer {
 
 h3 {
     font-size: 30px;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     color: blue;
     font-family: fantasy;
 }
@@ -158,12 +158,19 @@ Content styles (Main Module)
     border-radius: 25px;
     width: 200px;
     margin-left: 15px;
+    margin-top: 55px;
+    margin-right: 20px;
     float: right;
+}
+
+.about-container h3 {
+    margin-top: 5rem;
 }
 
 .about-container p {
     font-size: 18px;
     padding-bottom: 15px;
+    width: 60%;
 }
 
 .skills-container .skills-container-images {
@@ -188,6 +195,14 @@ Content styles (Main Module)
 
 .projects-container {
     display: block;
+}
+
+h3.projects-title {
+    margin-bottom: 0;
+}
+
+.projects-container-wrapper {
+    padding-top: 0.5rem;
 }
 
 .projects-container .projects-item {
