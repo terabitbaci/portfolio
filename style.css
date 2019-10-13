@@ -50,21 +50,21 @@ h3 {
     font-size: 30px;
     margin-bottom: 1.5rem;
     color: blue;
-    font-family: fantasy;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 h4 {
     font-size: 20px;
     margin-bottom: 1rem;
     color: blue;
-    font-family: fantasy;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 h5 {
     font-size: 18px;
     margin-top: 1rem;
     color: blue;
-    font-family: fantasy;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 .clearfix::after {
@@ -85,7 +85,7 @@ Header styles (Main Module)
 header h1 {
     display: inline-block;
     width: auto;
-    font-family: fantasy;
+    font-family: 'Cormorant Garamond', serif;
     color: blue;
     font-size: 2rem;
     vertical-align: middle;
@@ -148,7 +148,7 @@ Content styles (Main Module)
     float: right;
     margin-right: 5%;
     margin-top: 10%;
-    font-family: fantasy;
+    font-family: 'Cormorant Garamond', serif;
     font-size: 30px;
     color: #00FEFE;
     text-align: right;
@@ -259,7 +259,7 @@ footer i {
 
 footer h4 {
     margin-top: 25px;
-    font-family: fantasy;
+    font-family: 'Cormorant Garamond', serif;
     color: blue;
     padding-top: 15px;
     bottom: 0;
