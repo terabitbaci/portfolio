@@ -243,6 +243,32 @@ h3.projects-title {
     padding: 0.5rem;
 }
 
+.projects-container .projects-description .project-links li {
+    width: auto;
+    font-size: 16px;
+    margin: 20px 0px 0px 0px;
+    background-color: rgb(0, 119, 181);
+    border: none;
+    border-radius: 10px 8px 8px 10px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 0.3s;
+    position: relative;
+}
+
+.projects-container .projects-description .project-links li:hover {
+    background-color: rgb(45, 139, 202);
+    text-decoration: underline;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.projects-container .projects-description .project-links li a {
+    color: white;
+    text-decoration: none;
+}
+
 
 /* -------------------------------------
 Footer styles (Main Module)
