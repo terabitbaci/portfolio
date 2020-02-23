@@ -269,10 +269,27 @@ h3.projects-title {
     text-decoration: none;
 }
 
+.projects-container .projects-description .print-links li {
+    margin-top: 1rem;
+    width: auto;
+    display: block;
+    border: 0;
+    padding: 0;
+}
+
+.projects-container .projects-description .print-links li i {
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+.projects-container .projects-description .print-links li a {
+    color: black;
+}
+
 
 /* -------------------------------------
 Footer styles (Main Module)
-*/
+
 
 footer {
     text-align: center;
@@ -290,92 +307,100 @@ footer h4 {
     padding-top: 15px;
     bottom: 0;
     /*    text-shadow: 0px 0px 22px rgba(0, 0, 0, 1);*/
-    /*    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
-    /*
+
+
+/*    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;*/
+
+
+/*
     text-shadow: #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px;
     -webkit-font-smoothing: antialiased;
     */
-}
 
+
+}
 footer ul li {
     list-style-type: none;
     display: inline-block;
     padding-top: 10px;
 }
-
 footer li a {
     color: blue;
     padding-left: 10px;
     padding-right: 10px;
 }
 
-
 /* -------------------------------------
 Responsive styles
 */
 
-
 /*large laptop*/
-
 @media only screen and (max-width: 1600px) {
     body {
         /*        color: pink;*/
     }
+
     .hero-container {
         height: 600px;
     }
+
     .hero-container .slogan {
         margin-top: 5%;
         font-size: 25px;
     }
 }
 
-
 /*ipad lanscape / small laptop*/
-
 @media only screen and (max-width: 1024px) {
     body {
         /*        color: blue;*/
     }
+
     .hero-container {
         height: 400px;
     }
+
     .hero-container .slogan {
         margin-top: 5%;
         font-size: 25px;
     }
 }
 
-
 /*ipad potrait*/
-
 @media only screen and (max-width: 768px) {
     body {
         /*        color: red;*/
     }
+
     body {
         font-size: 12px;
     }
+
     .hero-container {
         height: 250px;
     }
+
     .hero-container .slogan {
         margin-top: 3%;
         font-size: 20px;
     }
+
     header,
     section,
     footer {
         width: 95%;
     }
+
     header {
         text-align: center;
     }
+
     header h1 {
         padding-top: 2rem;
         font-size: 1.5rem;
         display: block;
     }
+
     header nav {
         display: block;
         margin-left: auto;
@@ -384,54 +409,64 @@ Responsive styles
         width: 100%;
         float: none;
     }
+
     h3 {
         font-size: 20px;
     }
+
     h4 {
         font-size: 15px;
     }
+
     .about-container p {
         font-size: 15px;
     }
+
     .skills-container .skills-container-images figure {
         width: 25%;
     }
+
     .projects-container .projects-column {
         display: block;
         width: 100%;
     }
+
     .projects-container .projects-column img {
         width: 90%;
         margin-left: auto;
         margin-right: auto;
         display: block;
     }
+
     footer i {
         font-size: 2.5rem;
     }
 }
 
-
 /*iPhone landscape*/
-
 @media only screen and (max-width: 480px) {
     body {
         /*        color: green;*/
     }
+
     h3,
     h4 {
         text-align: center;
     }
+
     .hero-container {
         height: 180px;
     }
+
     .projects-container .projects-description ul {
         text-align: center;
     }
+
     .hero-container .slogan {
         margin-top: 5%;
         font-size: 15px;
     }
+
     .about-container .photo {
         width: 45%;
         margin-left: auto;
@@ -440,14 +475,13 @@ Responsive styles
         margin-bottom: 1rem;
         margin-right: auto;
     }
+
     .skills-container .skills-container-images figure {
         width: 48%;
     }
 }
 
-
 /*iPhone portrait*/
-
 @media only screen and (max-width: 320px) {
     body {
         /*        color: purple;*/
